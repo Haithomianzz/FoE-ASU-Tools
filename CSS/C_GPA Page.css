@@ -7,7 +7,7 @@
 .banner {
     height: 100vh;
     background-color: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.579),rgba(0,0,0,0.579)),url(back-school-witch-school-supplies.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.579),rgba(0,0,0,0.579)),url(../images/background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
