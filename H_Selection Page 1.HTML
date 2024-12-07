@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>selection page</title> 
+        <link rel="stylesheet" href="C_Selecion Page.css">
+        <script src="J_Selecion Page 1.js"> </script>
+    </head>
+<body style="margin: 45px;">
+    <div class="container">
+    <h1>Select Courses</h1>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <br>
+
+    <br>
+    <table class="table-striped">
+        <thead class="tablehead">
+            <tr class="bg-info" >
+            <th width="1%"> 
+                <a><button id="cl"role="button" onclick="clears()">Clear</button></a>
+            </th>
+            <th>Code</th>
+            <th width="60%">Course Name</th>
+            <th>Credit Hours</th>
+            </tr>
+        </thead>
+        <tbody id ="table3">
+        </tbody>
+    </table>
+    </div>
+    <a href="H_GPA Page.html" class="bt2"><button  right="0" class="bt2" role="button" onclick="getCheckedRecord()">Next</button></a>
+    <br>
+    <br>
+</body>
+</html>
+
+

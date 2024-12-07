@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Helvetica';
+  
+}
+.banner {
+    height: 100vh;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.579),rgba(0,0,0,0.579)),url(back-school-witch-school-supplies.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+.h {
+    width: 85%;
+    height: 7px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -100px;
+    margin-bottom: 90px;
+    background-color: #009688;
+    transform: translateY(1000%);
+}
+.navbar{
+    width:85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo {
+    width: 90px;
+    cursor: pointer;
+    z-index: 1;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+} 
+.neet ul li{
+    list-style: none;
+    display: inline-block;
+    margin: -85px 270px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.neet ul li b{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+content: '';
+height: 3px;
+width: 0;
+background: #009688;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: 0.5s;
+}
+.navbar ul li:hover::after{
+width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-80%);
+    text-align: center;
+    color: #fff;
+}
+.title {
+    width: 100%;
+    top: 60%;
+    transform: translateY(-20%);
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 40px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    position: right;
+    border-radius: 5px; 
+    background-color: #2e9fc4 ; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: 2px solid #04AA6D;
+    transition: background-color 0.3s ease;
+}
+.input {
+    /*text-size-adjust: 100px;*/
+    width: 70px;
+    height: 20px;
+    padding: 2px 2px;
+    border: 2.5px solid #009688;
+    border-radius: 4px;
+    color: #009688;
+    font-size: 20px;
+}
+.label {
+    font-weight: bold;
+    font-size:25px;
+    color: #fff;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.print{
+    width:250px;
+    padding: 25px 0px 25px 0px;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    font-size: 40px;
+    color: #009688;
+    border: 2px solid #009688;
+    background: transparent;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #00000075;
+}
+.same{
+    list-style: none;
+    display: flex;
+    margin: 0 100px;
+    column-gap: 65px;
+    position: relative;
+}
+.words{
+    font-size: 40px;
+    color: #009688 ;
+    font-weight: bold;
+    margin-left: 68vh;
+}
+.words ul li{
+    list-style: none;
+    display: inline-block;
+
+    position: relative;
+}
+.print1{
+    width: 250px;
+    padding: 25px 32px 25px 14px;
+    align-items: left;
+    justify-content: space-between;
+    font-size: 40px;
+    color: #009688;
+    border: 2px solid #009688;
+    background: transparent;
+    border-radius: 25px;    
+    background-color: #00000075;
+}
+.print ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 100px;
+    position: relative;
+}
+.print1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 100px;
+    position: relative;
+}
+td {
+    padding: 15px;
+    padding-left: 2%;
+    text-align: left;
+}
+th {
+    padding: 15px;
+    background-color: #9b9b9b;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+.ttr:hover {background-color: #2e9fc4;}
+table {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+    background-color: linear-gradient(rgba(0, 0, 0, 44),rgba(0,0,0,7.5))
+  }
+.table-striped{
+  background-color:rgba(31, 73, 105, 0.4);
+  color:white;
+  
+}
+.tdd{
+    border: none;
+    padding: 0;
+}
+p {
+    text-align: center;
+}
+select {
+    margin-left: 70px;
+    appearance: menulist-button;
+    background: #00000075;
+    background-image: none;
+    width: 50%;
+    height: 500%;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+#red {
+    background-color: #d64040;
+    border-color: #430909 ; 
+}
+#add {
+    background-color: #009688;
+}
+#emoji {
+    margin-right: 9%;
+}
+.input{
+    text-align: center;
+    font-size: 25px;
+}

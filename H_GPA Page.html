@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="C_GPA Page.css">
+    <script src="J_GPA Page.js"></script>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <a href="https://eng.asu.edu.eg/"> <img src="logo.png" class="logo"></a>
+            <ul>
+                <li><a href="H_Home Page.html"><b >Home</b></a></li>
+                <li><a href="H_GPA Page.html"><b >GPA</b></a></li>
+                <li><a href="H_Selection Page 2.HTML"><b >TABLE MAKER</b></a></li>
+            </ul>
+        </div>
+        <div>
+            <hr class="h">
+        </div>
+        <div class="title">
+            <h1>GPA Calculator</h1>
+            </div>
+            <br>
+            <div>
+                <form align="center">
+                    <label  class="label";>
+                        Previous Credits
+                    </label>
+                    <input class="input"; type="number" id="PCH" placeholder="00" maxlength="3" min="0" max="144" value="00" oninput="getSelectValue() ">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label class="label";>
+                        Previous GPA
+                    </label>
+                    <input class="input"; type="number" id="PGPA" placeholder="0.00" maxlength="5" min="0" max="4" value="0.00" step="0.01"oninput="getSelectValue() ">
+                </form>
+            </div>
+            <br><br>
+<table class="table-striped" >
+        <thead >
+            <th width="50%">Course Name</th>
+            <th>Credit Hours</th>
+            <th >Grade</th>
+            <TH width="8%">
+                <a href="H_Selection Page 1.html" ><button id = "add" margin-left="auto">Add</button></a></TH>
+            </tr>
+        </thead>
+        <tbody id="table4">
+        </tbody>
+    </table>
+    <br>
+        <br>
+        <br>
+        <table width="90%" >
+            <tr class="words" class="tdd" >
+                <td style="text-align: right;" class="tdd" colspan="2"><a id ="emoji">New GPA</a></td>
+                <TD width ="4%" class="tdd"></TD>
+                <td class="tdd"><a>Cumulative GPA</a></td>
+            </tr>
+            <tr  >
+                <td width="35%" class="tdd"></td>
+                <td  class="tdd"  >
+                    <div class="print">
+                        <ul>
+                            <li><P id="NGPA"></P></li>
+                        </ul>
+                    </div>
+                </td>
+                <td width ="4%" class="tdd"> </td>
+                <td  class="tdd" width="47%">
+                    <div class="print1">
+                        <ul>
+                            <li><P id="CGPA"></P></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <BR>
+        <BR>
+        <BR>
+</body>
+</html>
+
+
+

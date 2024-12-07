@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Helvetica';
+}
+.banner {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.500),rgba(0,0,0,0.500)),url(back-school-witch-school-supplies.jpg);
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: no-repeat;
+    background-attachment: scroll;*/
+}
+.h {
+    width: 85%;
+    height: 7px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -100px;
+    margin-bottom: 90px;
+    background-color: #009688;
+    transform: translateY(1000%);
+}
+.navbar{
+    width:85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 90px;
+    cursor: pointer;
+    z-index: 1;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+} 
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+content: '';
+height: 3px;
+width: 0;
+background: #009688;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: 0.5s;
+}
+.navbar ul li:hover::after{
+width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-80%);
+    text-align: center;
+    color: #fff;
+}
+.title {
+    width: 100%;
+    top: 60%;
+    transform: translateY(-20%);
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 40px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    
+}
+.input {
+    /*text-size-adjust: 100px;*/
+    width: 70px;
+    height: 20px;
+    padding: 2px 2px;
+    border: 2.5px solid #009688;
+    border-radius: 4px;
+    color: #009688;
+    font-size: 20px;
+}
+.label {
+    font-weight: bold;
+    font-size:25px;
+    color: #fff;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+
+  }
+  th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {background-color: #2e9fc4;}
+  table {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+th {
+    background-color: #9b9b9b;
+
+}
+.table-striped{
+background-color:rgba(31, 73, 105, 0.4);
+color:white;
+
+}
+.tablehead{
+color:#fff ;
+
+}
+
+.clearance{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    margin-right: 50px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    transition: 0.5s;
+   
+
+}
+.clearance:hover::after{
+    width: 100%;
+    color: #009688;
+}
+.clearance:hover{
+    background-color:#44e3d3;
+    color:#009688;
+}
